@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="assets/css/nice-select.css" />
     <link rel="stylesheet" href="assets/css/portfolio.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/team.css" />
 </head>
 
 <body>
@@ -971,7 +973,7 @@
     <section id="portfolio" class="portfolio" style="background: #2e0e8c">
        
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center" style="padding-top: 50px;">
                 <div class="col-lg-5 col-md-8">
                     <div class="section-tittle text-center mb-50">
                         <h2 style="color: white">Coordinators</h2>
@@ -981,16 +983,376 @@
             </div>
             <div class="row" data-aos="fade-up" data-aos-delay="100">
                 <div class="col-lg-12 d-flex justify-content-center">
-                  <ul id="portfolio-flters">
-                    <li data-filter=".filter-award">Faculty Coordinators</li>
-                    <li data-filter=".filter-workshop">Technical Coordinators</li>
-                    <li data-filter=".filter-social">Logistics Coordinators</li>
-                    <li data-filter=".filter-social">Web Team</li>
+                  <ul id="portfolio-flters"> 
+                    <li data-filter="faculty" id="faculty" class="filter-active">Faculty Coordinators</li>
+                    <li data-filter="tech" id="tech">Technical Coordinators</li>
+                    <li data-filter="log" id="log">Logistics Coordinators</li>
+                    <li data-filter="web" id="web">Web Team</li>
                   </ul>
                 </div>
-              </div>
-    
+            </div>
         </div>
+        
+        <div class="container-team">
+
+            <!-- faculty Coordinators start -->
+            
+            <div class="card" id="faculty-card">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="assets/img/download.png">
+                    </div>
+                    <div class="contentBx">
+                        <h3> Dr.K.Kottiligam <br> <span>Assistant Professor </span></h3>
+                    </div>
+                </div>
+                <ul class="sci">
+                    <li style="--i:1">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li style="--i:2">
+                        <a href="mailto:?subject=Subject%20of%20the%20email&body=Body%20of%20the%20email"><i class="fa-solid fa-envelope"></i></a>
+                    </li>
+     
+                </ul>
+            </div>
+            
+            <div class="card" id="faculty-card">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="assets/img/kathir-mam.jpg">
+                    </div>
+                    <div class="contentBx">
+                        <h3>Dr.R.Kathiroli<br> <span>Assistant Professor </span></h3>
+                    </div>
+                </div>
+                <ul class="sci">
+                    <li style="--i:1">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li style="--i:2">
+                        <a href="mailto:kathiroli@mitindia.edu?subject=Subject%20of%20the%20email&body=Body%20of%20the%20email"><i class="fa-solid fa-envelope"></i></a>
+                   </li>
+     
+                </ul>
+            </div>
+
+
+            <div class="card" id="faculty-card">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="assets/img/sudhakar-sir.jpeg">
+                    </div>
+                    <div class="contentBx">
+                        <h3>Dr.T.Sudhakar<br> <span>Assistant Professor </span></h3>
+                    </div>
+                </div>
+                <ul class="sci">
+                    <li style="--i:1">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li style="--i:2">
+                        <a href="mailto:@gmail.com?subject=Subject%20of%20the%20email&body=Body%20of%20the%20email"><i class="fa-solid fa-envelope"></i></a>
+
+                    </li>
+     
+                </ul>
+            </div>
+
+            <!-- faculty Coordinators end -->
+
+            <!-- technical Coordinators start -->
+
+            <div class="card" id="tech-card"   style="display: none;">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="assets/img/varshini.jpeg">
+                    </div>
+                    <div class="contentBx">
+                        <h3>Sree Varshini S <br> <span> coordinator</span></h3>
+                    </div>
+                </div>
+                <ul class="sci">
+                    <li style="--i:1">
+                        <a href="https://www.linkedin.com/in/sree-varshini" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li style="--i:2">
+                        <a href="mailto:sreevarshinisankapani@gmail.com?subject=Subject%20of%20the%20email&body=Body%20of%20the%20email"><i class="fa-solid fa-envelope"></i></a>
+                    </li>
+     
+                </ul>
+            </div>
+
+            <div class="card" id="tech-card"   style="display: none;">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="assets/img/vaasini.jpeg">
+                    </div>
+                    <div class="contentBx">
+                        <h3>Sree Vaasini S <br> <span> coordinator</span></h3>
+                    </div>
+                </div>
+                <ul class="sci">
+                    <li style="--i:1">
+                        <a href="https://www.linkedin.com/in/sreevaasini" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li style="--i:2">
+                        <a href="mailto:sreevaasinisankapani@gmail.com?subject=Subject%20of%20the%20email&body=Body%20of%20the%20email"><i class="fa-solid fa-envelope"></i></a>
+                    </li>
+     
+     
+                </ul>
+            </div>
+
+            <div class="card" id="tech-card"   style="display: none;">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="assets/img/anna.jpeg">
+                    </div>
+                    <div class="contentBx">
+                        <h3>Sriannaamalai V S S <br> <span> coordinator</span></h3>
+                    </div>
+                </div>
+                <ul class="sci">
+                    <li style="--i:1">
+                        <a href="https://www.linkedin.com/in/sri-annaamalai-812070288/?trk=contact-info" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li style="--i:2">
+                        <a href="mailto:Sriannaamalai2004@gmail.com?subject=Subject%20of%20the%20email&body=Body%20of%20the%20email"><i class="fa-solid fa-envelope"></i></a>
+                    </li>
+     
+     
+                </ul>
+            </div>
+
+            <div class="card" id="tech-card"   style="display: none;">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="assets/img/karthi.jpeg">
+                    </div>
+                    <div class="contentBx">
+                        <h3>Karthi M<br> <span> coordinator</span></h3>
+                    </div>
+                </div>
+                <ul class="sci">
+                    <li style="--i:1">
+                        <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li style="--i:2">
+                        <a href="mailto:Karthi M ?subject=Subject%20of%20the%20email&body=Body%20of%20the%20email"><i class="fa-solid fa-envelope"></i></a>
+                    </li>
+     
+     
+                </ul>
+            </div>
+
+            <div class="card" id="tech-card"   style="display: none;">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="assets/img/joel.jpeg">
+                    </div>
+                    <div class="contentBx">
+                        <h3>Joel Ananth A<br> <span> coordinator</span></h3>
+                    </div>
+                </div>
+                <ul class="sci">
+                    <li style="--i:1">
+                        <a href="https://www.linkedin.com/in/joel-ananth-392415250" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li style="--i:2">
+                        <a href="mailto:joelananth1111@gmail.com ?subject=Subject%20of%20the%20email&body=Body%20of%20the%20email"><i class="fa-solid fa-envelope"></i></a>
+                    </li>
+     
+     
+                </ul>
+            </div>
+
+            <div class="card" id="tech-card"   style="display: none;">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="assets/img/roshini.JPG">
+                    </div>
+                    <div class="contentBx">
+                        <h3>Roshni N <br> <span> coordinator</span></h3>
+                    </div>
+                </div>
+                <ul class="sci">
+                    <li style="--i:1">
+                        <a href="https://www.linkedin.com/in/roshni-n-31102a270/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li style="--i:2">
+                        <a href="mailto:roshni.naga@gmail.com ?subject=Subject%20of%20the%20email&body=Body%20of%20the%20email"><i class="fa-solid fa-envelope"></i></a>
+                    </li>
+     
+     
+                </ul>
+            </div>
+
+            <div class="card" id="tech-card"   style="display: none;">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="assets/img/latha.jpeg">
+                    </div>
+                    <div class="contentBx">
+                        <h3>Latha Sri SA<br> <span> coordinator</span></h3>
+                    </div>
+                </div>
+                <ul class="sci">
+                    <li style="--i:1">
+                        <a href="https://www.linkedin.com/in/latha-sri-sakthivel-8a526125a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li style="--i:2">
+                        <a href="mailto:lathasrisakthivel114@gmail.com?subject=Subject%20of%20the%20email&body=Body%20of%20the%20email"><i class="fa-solid fa-envelope"></i></a>
+                    </li>
+     
+     
+                </ul>
+            </div>
+
+
+           <!-- Technical Coordinators end -->
+
+           <!-- Logistics Coordinators start-->
+
+
+
+            <div class="card" id="log-card"   style="display: none;">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="assets/img/deepan.jpeg">
+                    </div>
+                    <div class="contentBx">
+                        <h3>Deepan Kumar K <br> <span> coordinator</span></h3>
+                    </div>
+                </div>
+                <ul class="sci">
+                    <li style="--i:1">
+                        <a href="https://linkedin.com/in/deepankumark030"  target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li style="--i:2">
+                        <a href="mailto:deepankumar.k03@gmail.com?subject=Subject%20of%20the%20email&body=Body%20of%20the%20email"><i class="fa-solid fa-envelope"></i></a>
+
+                    </li>
+     
+                </ul>
+            </div>
+
+            <div class="card" id="log-card"   style="display: none;">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="assets/img/riffath.jpeg">
+                    </div>
+                    <div class="contentBx">
+                        <h3>Mohamed Riffath K<br> <span> coordinator</span></h3>
+                    </div>
+                </div>
+                <ul class="sci">
+                    <li style="--i:1">
+                        <a href="https://linkedin.com/in/mohamed-riffath-k-5327b5254"  target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li style="--i:2">
+                        <a href="mailto:riffath786mohamed@gmail.com?subject=Subject%20of%20the%20email&body=Body%20of%20the%20email"><i class="fa-solid fa-envelope"></i></a>
+
+                    </li>
+     
+                </ul>
+            </div>
+
+            <div class="card" id="log-card"   style="display: none;">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="assets/img/nithish.jpeg">
+                    </div>
+                    <div class="contentBx">
+                        <h3>Nithish Kumar S <br> <span> coordinator</span></h3>
+                    </div>
+                </div>
+                <ul class="sci">
+                    <li style="--i:1">
+                        <a href="https://www.linkedin.com/in/nithish-siva-77a459303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li style="--i:2">
+                        <a href="mailto:sivanithish01@gmail.com?subject=Subject%20of%20the%20email&body=Body%20of%20the%20email"><i class="fa-solid fa-envelope"></i></a>
+                    </li>
+     
+                </ul>
+            </div>
+
+            <div class="card" id="log-card"   style="display: none;">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="assets/img/pooja.jpeg">
+                    </div>
+                    <div class="contentBx">
+                        <h3>Pooja M J<br> <span>Coordinator</span></h3>
+                    </div>
+                </div>
+                <ul class="sci">
+                    <li style="--i:1">
+                        <a href="https://www.linkedin.com/in/pooja-manoharan-967a03287" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li style="--i:2">
+                        <a href="mailto:poojamanoharan750@gmail.com?subject=Subject%20of%20the%20email&body=Body%20of%20the%20email"><i class="fa-solid fa-envelope"></i></a>
+                    </li>
+     
+                </ul>
+            </div>
+         <!-- Logistics Coordinators end -->
+
+        <!-- Web Team Start -->
+
+        <div class="card" id="web-card"   style="display: none;">
+            <div class="content">
+                <div class="imgBx">
+                    <img src="assets/img/download.png">
+                </div>
+                <div class="contentBx">
+                    <h3>Kirankumar M<br> <span>Web Developer</span></h3>
+                </div>
+            </div>
+            <ul class="sci">
+            
+                <li style="--i:1">
+                    <a href="https://github.com/kirankumar6676" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </li>
+                <li style="--i:2">
+                    <a href="https://www.linkedin.com/in/kirankumar0327/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+                <li style="--i:3">
+                    <a href="mailto:kumarkiran0893@gmail.com?subject=Subject%20of%20the%20email&body=Body%20of%20the%20email"><i class="fa-solid fa-envelope"></i></a>
+                </li>
+ 
+            </ul>
+        </div>
+
+        <div class="card" id="web-card"   style="display: none;">
+            <div class="content">
+                <div class="imgBx">
+                    <img src="assets/img/vijaisuria.jpg">
+                </div>
+                <div class="contentBx">
+                    <h3>Vijai Suria M<br> <span>Web Developer</span></h3>
+                </div>
+            </div>
+            <ul class="sci">
+                <li style="--i:1">
+                    <a href="https://github.com/vijaisuria" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </li>
+                <li style="--i:2">
+                    <a href="https://www.linkedin.com/in/vijaisuria/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+                <li style="--i:3">
+                    <a href="mailto:vijaisuria87@gmail.com?subject=Subject%20of%20the%20email&body=Body%20of%20the%20email"><i class="fa-solid fa-envelope"></i></a>
+                </li>
+ 
+            </ul>
+        </div>
+
+        <!-- Web Team end -->
+
+        
+
+      </div>
     
       </section>
         <!-- Student Coordinators sections end -->
@@ -1087,6 +1449,37 @@
     </div>
 
     <!-- JS here -->
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const filters = document.querySelectorAll("#portfolio-flters li");
+            const cards = document.querySelectorAll(".container-team .card");
+
+            filters.forEach(filter => {
+                filter.addEventListener("click", function() {
+                    const selectedFilter = this.getAttribute("data-filter");
+
+                    cards.forEach(card => {
+                        if (card.id === selectedFilter + "-card") {
+                            card.style.display = "flex"; // Ensure card is displayed as flex
+                        } else {
+                            card.style.display = "none";
+                        }
+                    });
+
+                    // Toggle active class
+                    filters.forEach(f => f.classList.remove("filter-active"));
+                    this.classList.add("filter-active");
+                });
+            });
+        });
+    </script>
+
+
+
+
+
+
 
     <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
     <!-- Jquery, Popper, Bootstrap -->
